@@ -9,12 +9,12 @@ requirements = [
 setup(
     name="bonito",
     version="0.0.1",
-    url="https://github.com/BatsResearch/bonito",
+    url="https://github.com/simulanics/bonito-llama",
     python_requires=">=3.9",
     install_requires=requirements,
     classifiers=[
         "Programming Language :: Python :: 3.9",
     ],
-    description="A lightweight wrapper for the Bonito model.",
+    description="A lightweight wrapper for the Bonito model using llama.",
     packages=find_packages(),
 )
