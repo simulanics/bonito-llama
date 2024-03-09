@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 requirements = [
     "transformers",
     "datasets",
-    "vllm",
+    "llama_cpp",
 ]
 
 setup(
